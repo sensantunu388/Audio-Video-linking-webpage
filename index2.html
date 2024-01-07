@@ -3,12 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Video & Audios of different categories <form action=""></form>!</title>
+    <title>
+      User Details <form action=""></form>!
+    </title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <form method="post">
-      <h1>Videos & Audios of different types</h1>
+      <h1>User Details</h1>
       <div>
         <label for="username">Username:</label>
         <input type="text" id="username" placeholder="Enter your username" />
@@ -21,7 +23,7 @@
         <input type="radio" id="male" value="male" name="gender" />
         <label for="male">Male</label>
         <input type="radio" id="Female" value="Female" name="gender" />
-        <label for="Female">FeMale</label>
+        <label for="Female">Female</label>
       </div>
       <div>
         <label for="Age">Enter your age:</label>
@@ -40,13 +42,30 @@
         ></textarea>
       </div>
       <div>
-        <input type="checkbox" id="subscribe" value="yes">
+        <input type="checkbox" id="subscribe" value="yes" />
         <label for="subscribe">Subscribe for Offers</label>
       </div>
       <div>
-        To Access your video & audio playlists click<a href="http:index.html"> here.</a>
-        
+        Select your preferred city:
       </div>
+      <div>
+        <select name="select city" id="city">
+       <option value="Kolkata">Kolkata</option>
+       <option value="Delhi">Delhi</option>
+       <option value="Mumbai">Mumbai</option>
+       <option value="Chennai">Chennai</option>
+      </select>
+
+      </div>
+      <div>
+        To Access your video & audio playlists click<a href="http:index.html">
+          here.</a
+        >
+      </div>
+     
     </form>
+
+    <footer>Copyrighted by SS. | All rights reserved.</footer>
+   
   </body>
 </html>
