@@ -1,0 +1,12 @@
+body{
+    background-color: antiquewhite;
+    font-style: italic;
+    font-weight: 150;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-stretch: semi-condensed;
+    position: static;
+}
+h1{
+    position: static;
+}
+
